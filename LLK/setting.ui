@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>396</width>
+    <height>331</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Adobe 黑体 Std R&quot;;</string>
+      </property>
+      <property name="text">
+       <string>背景音</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="openBgmg">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Adobe 黑体 Std R&quot;;</string>
+      </property>
+      <property name="text">
+       <string>开</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="closeBgm">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Adobe 黑体 Std R&quot;;</string>
+      </property>
+      <property name="text">
+       <string>关</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>180</y>
+     <width>241</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Adobe 黑体 Std R&quot;;</string>
+      </property>
+      <property name="text">
+       <string>音效</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="soundsGrop">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Adobe 黑体 Std R&quot;;</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>默认音效1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>默认音效2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>默认音效3</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

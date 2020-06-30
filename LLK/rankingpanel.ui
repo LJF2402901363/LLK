@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RankingPanel</class>
+ <widget class="QWidget" name="RankingPanel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>595</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="rankingTable">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>351</width>
+     <height>371</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>70</y>
+     <width>160</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="integrationBtn">
+      <property name="text">
+       <string>积分排行榜</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="passCountBtn">
+      <property name="text">
+       <string>通关数排行榜</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="passRateBtn">
+      <property name="text">
+       <string>通关率排行榜</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
